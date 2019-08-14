@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<package>
+    <name>Venu_Menu</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/academic.php">("AFL") v. 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Create simple but versatile menu navigation from CMS pages, Categories URLs, or external URLs. </summary>
+    <description>&lt;p&gt;I&amp;rsquo;m developer who enjoys the challenge of creating innovative applications.&amp;nbsp; From back end programming (PHP, Asp.net, Ruby on Rails) to front end engineering (HTML, CSS and jQuery/Javascript), my days are spent looking for creative solutions to everyday web development problems.&lt;/p&gt;&#xD;
+&lt;p&gt;Prior to developing websites, I worked as an IT consultant which was an amazing experience that helps me learn to see software engineering in a different way.&amp;nbsp; I&amp;rsquo;m passionate about web development and design. Aside from it, I enjoy reading challenging books, drawing, and singing to my daughter.&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Introduction:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;This extension creates an admin menu with options for turning template path hints on, in the front and backend of your website.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;- Upgrade Proof Module.&lt;br /&gt; - Tested for Magento version 1.7.0.0 - 1.8.1.0&lt;br /&gt; - Easy to install nothing to configure.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Installation / Configuration:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;Just copy &amp;amp; paste the 'app' folder provided in the extension zip file to the root of your Magento installation.&lt;/li&gt;&#xD;
+&lt;li&gt;After installation, make sure to clear you cache then:&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;To enable the admin path hints navigate and click on Path Hints &amp;gt;&amp;gt; Enable Admin Paths.&lt;/li&gt;&#xD;
+&lt;li&gt;To disable the admin path hints navigate and click on Path Hints &amp;gt;&amp;gt; Disable Admin Paths.&lt;/li&gt;&#xD;
+&lt;li&gt;To enable front-end path hints navigate and click on Path Hints &amp;gt;&amp;gt; Enable Front Paths.&lt;/li&gt;&#xD;
+&lt;li&gt;To disable front-end path hints navigate and click on Path Hints &amp;gt;&amp;gt; Disable Front Paths.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;With this extension you can easily turn on template path hints for both front and back end with a click of menu. No configuration is needed.&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Introduction:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;p&gt;Create simple but versatile menu navigation from CMS pages, Categories URLs, or external URLs. Each element has css class so you can address any element by standard css.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Upgrade Proof Module.&lt;/li&gt;&#xD;
+&lt;li&gt;Tested for Magento version 1.6.2.0 - 1.7.0.0 - 1.8.1.0.&lt;/li&gt;&#xD;
+&lt;li&gt;&amp;nbsp;Easy to install nothing to configure.&lt;/li&gt;&#xD;
+&lt;li&gt;Valid HTML5 structure&lt;/li&gt;&#xD;
+&lt;li&gt;Valid CSS&lt;/li&gt;&#xD;
+&lt;li&gt;Support for vertical or horizontal menu orientation&lt;/li&gt;&#xD;
+&lt;li&gt;Drop-down menu when using the horizontal menu&lt;/li&gt;&#xD;
+&lt;li&gt;Fly-out menu when using the vertical menu&lt;/li&gt;&#xD;
+&lt;li&gt;You can easily add any menu to pages, static block, or categories pages by copying and pasting the block code that gets generated every time you create a new menu.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Installation / Configuration:&lt;/strong&gt;&lt;/p&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;After installation, make sure to clear you cache then:&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;To create menus navigate to Menu &amp;gt;&amp;gt; Manage Menus&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;After installation a sample menu will be added to the footer of you website.&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;To disable the sample menu simply copy the venu.xml file located in MageDirectory\app\design\frontend\default\default\layout&amp;nbsp; to your theme directory and remove the block reference to the sample menu.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;To use Menu in your CMS pages use:&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;{{block type="vstudio_venu/menu" block_id="sample_menu" template="vstudio/venu/menu.phtml" menu_title="Sample Menu"}}&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;&lt;strong&gt;&amp;nbsp;NOTE:&lt;/strong&gt; Here menu_title will be replaced with the menu name you created.&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</description>
+    <notes>First stable release</notes>
+    <authors><author><name>Leandro Villagran</name><user>veandro</user><email>veandro@outlook.com</email></author></authors>
+    <date>2014-04-21</date>
+    <time>10:55:00</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Vstudio_Venu.xml" hash="9da19de899ff6e71c212774e6c4218cd"/></dir></dir></target><target name="magecommunity"><dir><dir name="Vstudio"><dir name="Venu"><dir name="Block"><dir name="Adminhtml"><dir name="Menumanager"><dir name="Edit"><file name="Form.php" hash="19e215b8bb5ff97f28a1da9c4870ee19"/><dir name="Tab"><file name="Categories.php" hash="cef84d0151c6ed2cc697642e81c07d28"/><file name="Custom.php" hash="c99783ed1eda4209c1c3239596af2cdc"/><file name="Form.php" hash="53c84d188a1b988381296eeafd00eaa4"/><file name="Pages.php" hash="e8e49286b198781e18ee5efa3241096c"/></dir><file name="Tabs.php" hash="4896cfcc4d9b83b54709583b2398caec"/></dir><file name="Edit.php" hash="32b25d351269353432f5925a21d50985"/><file name="Grid.php" hash="68395bbad24c0456e37bd8a0f2fd3ddc"/></dir><file name="Menumanager.php" hash="1006a6046a9b19cd56c343ac82202274"/></dir><file name="Menu.php" hash="f823d21dff135a711eede4deda12f44d"/></dir><dir name="Helper"><file name="Data.php" hash="7cd8247fccf0ec896ed8308b0e517209"/></dir><dir name="Model"><file name="MenuItem.php" hash="7a350ac0c1a550fa9a59ef8f1127b4c3"/><file name="Options.php" hash="ac77800626cab12b28354d8221546c31"/><dir name="Resource"><dir name="Menuitem"><file name="Collection.php" hash="9300a14f7281027d897dd0d4d747c788"/></dir><file name="Menuitem.php" hash="2649815d4c93ba40e4d6a4680f260e9a"/><dir name="Venu"><file name="Collection.php" hash="018e4a8a54ce460ab54d372a1467e49d"/></dir><file name="Venu.php" hash="2ea28ae615b6dbc8a5d0ef542f20d080"/></dir><file name="Venu.php" hash="83501fea2b353c8d7e52ef86fbbcfe32"/></dir><dir name="controllers"><dir name="Adminhtml"><dir name="Venu"><file name="MenuController.php" hash="15bd684c86e4f323a052c19ed8a12bd5"/></dir></dir><file name="VenuController.php" hash="7f46cea457534d053eebf4c01833def6"/></dir><dir name="data"><dir name="vstudio_venu_setup"><file name="data-install-1.0.0.0.php" hash="efbb9acc38e7dfe72b4ec27699703d76"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="f3c85fa038d8a776800f957cf8a595f1"/><file name="config.xml" hash="4494e093a06461d2db8a0838ddf1413a"/><file name="system.xml" hash="c79e105fc5b825bf85a2479ed881883a"/></dir><dir name="sql"><dir name="vstudio_venu_setup"><file name="install-1.0.0.0.php" hash="98a6e204778f474723e9bcbb11947bc9"/></dir></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="venu.xml" hash="44965e811d34f6c432aeb44feeaa88e3"/></dir><dir name="template"><dir name="vstudio"><dir name="venu"><dir name="edit"><dir name="tab"><file name="category.phtml" hash="8b42a4f731790f088bd0cd4c0a7a87fe"/></dir></dir></dir></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="venu.xml" hash="954348f6dd922c8186d47794090e4b1e"/></dir><dir name="template"><dir name="vstudio"><dir name="venu"><file name="menu.phtml" hash="b06077bcf9e9d1c9579e443fb83b613f"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="vstudio"><dir name="venu"><file name="master.css" hash="3f7658a34ee77526fa1967fb600d747c"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.4.24</max></php></required></dependencies>
+</package>
