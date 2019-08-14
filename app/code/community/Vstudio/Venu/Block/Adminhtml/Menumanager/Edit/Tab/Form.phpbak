@@ -2,12 +2,6 @@
 
 class Vstudio_Venu_Block_Adminhtml_MenuManager_Edit_Tab_Form extends Mage_Adminhtml_Block_Widget_Form {
 
-     public function __construct()
-    {
-        parent::__construct();
-        $this->setTemplate('vstudio/venu/edit/tab/form.phtml');
-    }
-
 	protected function _prepareForm() {
 		$form = new Varien_Data_Form();
 		$this->setForm($form);
@@ -180,41 +174,7 @@ class Vstudio_Venu_Block_Adminhtml_MenuManager_Edit_Tab_Form extends Mage_Adminh
 		return parent::_prepareForm();
 	}
 
-	
-    protected function _getVenuData(){
-
-        $formData = NULL;
-
-        /** set form data **/
-		if (Mage::getSingleton('adminhtml/session')->getVenuData()) {
-			$formData = Mage::getSingleton('adminhtml/session')->getVenuData();
-			Mage::getSingleton('adminhtml/session')->setVenuData(null);
-		} elseif (Mage::registry('venu_data')) {
-
-           
-			$formData = Mage::registry('venu_data')->getData();
-			// decode menu options and add it to the right field
-			if ( ! empty($formData['menu_options'])) {
-				$options = json_decode($formData['menu_options']);
-				foreach ($options as $option => $value) {
-					$formData[$option] = $value;
-				}
-                unset($formData['menu_options']);
-			}
-
-			$menuItems = Mage::registry('venu_data')->getData('menu_items');
-            if (!empty($menuItems)) {
-                $this->_sortFields($menuItems, SORT_ASC, 'sort_order');
-                $formData['menu_items'] = $menuItems;
-            }
-
-		}
-
-        return $formData;
-    }
-
-    
-    /**
+	/**
 	 * Sort a multidimensional array by reference
 	 *
 	 * @param $data array

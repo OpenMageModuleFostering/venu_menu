@@ -18,6 +18,9 @@
 		<reference name="content">
 			<block type="vstudio_venu/adminhtml_menumanager_edit" name="manage.menu.edit.grid" />
 		</reference>
+        <reference name="head">
+            <action method="addCss"><name>vstudio/venu/venu.css</name></action>
+        </reference>
 	</adminhtml_venu_menu_edit>
 	<adminhtml_venu_menu_categories>
 		<block type="core/text_list" name="root" output="toHtml">

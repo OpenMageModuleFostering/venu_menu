@@ -17,6 +17,25 @@ class Vstudio_Venu_Adminhtml_Venu_MenuController
         return $this;
     }
 
+    public function ajaxAction() 
+    {
+        $id = $this->getRequest()->getPost('deleteItem');
+        $result = '';
+        if ( $id ) {
+
+            try {
+                 $menuItem = Mage::getModel('vstudio_venu/menuitem')->setId($id);
+                 $menuItem->delete();
+                 $result = "menu item with id : $id. Has been deleted";
+            } catch(Exception $e) {
+                $result = "Something went wront: " .$e->getMessage();
+            }
+        }
+        
+        $this->getResponse()->setBody(Mage::helper('core')->jsonEncode($result));
+        
+    }
+
     public function editAction()
     {
         // lets get the id of the menu
