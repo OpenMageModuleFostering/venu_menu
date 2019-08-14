@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/Venu_Menu",
     "type": "magento-module",
-    "license": "("AFL")-v.-3.0",
+    "license": "OSL-3.0",
     "homepage": "",
-    "description": "Create simple but versatile menu navigation from CMS pages, Categories URLs, or external URLs. ",
+    "description": "Create simple but versatile menu navigation from CMS pages, Categories URLs, or external URLs.",
     "authors": [
     {
         "name": "Leandro Villagran",
