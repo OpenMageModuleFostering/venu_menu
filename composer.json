@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Venu_Menu",
+    "name": "OpenMageModuleFostering\/Venu_Menu",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Create simple but versatile menu navigation from CMS pages, Categories URLs, or external URLs.",
     "authors": [
-    {
-        "name": "Leandro Villagran",
-        "email": "veandro@outlook.com"
-    }
-],
+        {
+            "name": "Leandro Villagran",
+            "email": "veandro@outlook.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
